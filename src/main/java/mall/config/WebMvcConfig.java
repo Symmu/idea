@@ -12,6 +12,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @Description: vue_cli
  * @versin:1.0
  */
+//http://localhost:8080/doc.html
 @Configuration
 @EnableSwaggerBootstrapUI //使用7增强功能
 public class WebMvcConfig implements WebMvcConfigurer {
