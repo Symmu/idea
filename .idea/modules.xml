@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../element_users/element_users.iml" filepath="$PROJECT_DIR$/../element_users/element_users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mall/mall.iml" filepath="$PROJECT_DIR$/../mall/mall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mymall/mymall.iml" filepath="$PROJECT_DIR$/../mymall/mymall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vue_cli.iml" filepath="$PROJECT_DIR$/vue_cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../vue_cli_01/vue_cli_01.iml" filepath="$PROJECT_DIR$/../vue_cli_01/vue_cli_01.iml" />
+    </modules>
+  </component>
+</project>

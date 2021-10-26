@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="vue_cli3" />
+        <module name="webrtc" />
+        <module name="element_users" />
+        <module name="mall" />
+        <module name="mymall" />
+        <module name="vue_cli_01" />
+        <module name="vue_cli" />
+        <module name="exerciseJava" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="element_users" target="1.8" />
+      <module name="exerciseJava" target="1.8" />
+      <module name="mall" target="1.8" />
+      <module name="mymall" target="1.8" />
+      <module name="vue_cli" target="1.8" />
+      <module name="vue_cli2" target="1.8" />
+      <module name="vue_cli3" target="1.8" />
+      <module name="vue_cli_01" target="1.8" />
+      <module name="webrtc" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="element_users" options="-parameters" />
+      <module name="exerciseJava" options="-parameters" />
+      <module name="mall" options="-parameters" />
+      <module name="mymall" options="-parameters" />
+      <module name="vue_cli" options="-parameters" />
+      <module name="vue_cli2" options="-parameters" />
+      <module name="vue_cli3" options="-parameters" />
+      <module name="vue_cli_01" options="-parameters" />
+      <module name="webrtc" options="-parameters" />
+    </option>
+  </component>
+</project>
