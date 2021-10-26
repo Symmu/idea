@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="element_users.dao.UserDao">
+<!--查询所有用户信息-->
+    <select id="findAll" resultType="element_users.entity.User">
+        select id,name,sex,bir,address
+        from t_user
+    </select>
+<!--保存用户信息-->
+    <insert id="save" parameterType="element_users.entity.User" useGeneratedKeys="true" keyProperty="id">
+        insert into t_user values (#{id},#{name},#{sex},#{bir},#{address})
+    </insert>
+<!--根据id删除用户-->
+    <delete id="delete" parameterType="String" >
+        delete from t_user where id = #{id}
+    </delete>
+<!--修改用户信息-->
+    <delete id="update" parameterType="element_users.entity.User" >
+        update t_user set name=#{name},sex=#{sex},bir=#{bir},address=#{address}
+        where id = #{id}
+    </delete>
+
+<!--分页查询-->
+    <select id="findByPage" resultType="element_users.entity.User">
+        select id,name,sex,bir,address
+        from t_user  limit #{start},#{rows}
+    </select>
+<!--查询总条数-->
+    <select id="findTotals" resultType="Long">
+        select count(*) from t_user
+    </select>
+</mapper>
